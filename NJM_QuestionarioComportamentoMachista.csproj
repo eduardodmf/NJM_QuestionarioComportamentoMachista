@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0">
+  <PropertyGroup>
+    <RootNamespace>NJM_QuestionarioComportamentoMachista</RootNamespace>
+    <ProjectGuid>{91A68CA7-8F92-46BF-9914-10BCDD00CBD1}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Content\css\bootstrap\bootstrap-grid.css" />
+    <Content Include="Content\css\bootstrap\bootstrap-grid.min.css" />
+    <Content Include="Content\css\bootstrap\bootstrap-reboot.css" />
+    <Content Include="Content\css\bootstrap\bootstrap-reboot.min.css" />
+    <Content Include="Content\css\bootstrap\bootstrap.css" />
+    <Content Include="Content\css\bootstrap\bootstrap.min.css" />
+    <Content Include="Content\css\radiobuttonSimNao.css" />
+    <Content Include="Content\img\balao1.png" />
+    <Content Include="Content\img\balao2.png" />
+    <Content Include="Content\img\blocoTextoAtitudes.png" />
+    <Content Include="Content\img\cabecalho.png" />
+    <Content Include="Content\img\cabecalhoComFundo.png" />
+    <Content Include="Content\img\contato.png" />
+    <Content Include="Content\img\favicons\njm.png" />
+    <Content Include="Content\img\favicons\paizinhovirgula.png" />
+    <Content Include="Content\img\favicons\papodehomem.png" />
+    <Content Include="Content\img\hashtag1.png" />
+    <Content Include="Content\img\Hashtag2.png" />
+    <Content Include="Content\img\Hashtag3.png" />
+    <Content Include="Content\img\hashtag4.png" />
+    <Content Include="Content\img\imagemVazia.png" />
+    <Content Include="Content\img\informacoes.png" />
+    <Content Include="Content\img\logoNJMTJDFT.png" />
+    <Content Include="Content\img\pergunta1.png" />
+    <Content Include="Content\img\pergunta2.png" />
+    <Content Include="Content\img\pergunta3.png" />
+    <Content Include="Content\img\pergunta4.png" />
+    <Content Include="Content\img\todos.png" />
+    <Content Include="Content\css\site.css" />
+    <Content Include="Content\js\questionario.js" />
+    <Content Include="Content\js\bootstrap\bootstrap.bundle.js" />
+    <Content Include="Content\js\bootstrap\bootstrap.bundle.min.js" />
+    <Content Include="Content\js\bootstrap\bootstrap.js" />
+    <Content Include="Content\js\bootstrap\bootstrap.min.js" />
+    <Content Include="index.html" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Content\css\bootstrap\bootstrap-grid.css.map" />
+    <None Include="Content\css\bootstrap\bootstrap-grid.min.css.map" />
+    <None Include="Content\css\bootstrap\bootstrap-reboot.css.map" />
+    <None Include="Content\css\bootstrap\bootstrap-reboot.min.css.map" />
+    <None Include="Content\css\bootstrap\bootstrap.css.map" />
+    <None Include="Content\css\bootstrap\bootstrap.min.css.map" />
+    <None Include="Content\fonts\OpenSans-ExtraBold.ttf" />
+    <None Include="Content\js\bootstrap\bootstrap.bundle.js.map" />
+    <None Include="Content\js\bootstrap\bootstrap.bundle.min.js.map" />
+    <None Include="Content\js\bootstrap\bootstrap.js.map" />
+    <None Include="Content\js\bootstrap\bootstrap.min.js.map" />
+  </ItemGroup>
+</Project>

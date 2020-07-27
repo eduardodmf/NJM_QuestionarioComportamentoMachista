@@ -1,0 +1,143 @@
+﻿/*@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");*/
+@font-face {
+    font-family: 'opensans-extrabold';
+    src: url('../fonts/opensans-extrabold.ttf') format('truetype');
+}
+/*
+CORES
+Roxo: #6B1645
+Laranja: #EB6D3D
+*/
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    background-color: #fce2ce !important;
+    font-size: 16px;
+    font-family: 'opensans-extrabold';
+    /*font-family: "Open Sans", "Helvetica", sans-serif;*/
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.cabecalho {
+    background-color: #6B1645;
+    width: 100%;
+    border-bottom: 3px solid #EB6D3D;
+}
+
+.imagemCabecalho {
+    width: 70% !important;
+}
+
+.imagemInformacoes {
+    width: 100% !important;
+}
+
+.centralizado {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.tablePerguntas {
+    border-spacing: 0px;
+}
+
+    .tablePerguntas td {
+        border-bottom: 1px solid #e95d32;
+    }
+
+.colunaNumPergunta {
+    width: 5%;
+    font-weight: bold;
+    font-size: 20px;
+    color: #e95d32;
+}
+.colunaPergunta {
+    width: 85%;
+    font-weight: bold;
+}
+.colunaRadioButton{
+    width: 10%
+}
+
+.imagemIlustrativa{
+    width: 90%;
+}
+
+.contato {
+    background-color: #6B1645;
+    border-bottom: 25px solid #EB6D3D;
+}
+
+.imagemContato {
+    width: 100% !important;
+    position: absolute !important;
+    left: 20px !important;
+    top: -150px !important;
+    z-index: 1 !important;
+}
+
+h5 {
+    color: #EB6D3D !important;
+}
+
+.tituloDefinicao {
+    color: #EB6D3D;
+    font-weight: bold;
+}
+
+p{
+    color: white;
+}
+
+.linkExterno {
+    color: white;
+    font-weight: bold;
+}
+
+    .linkExterno:hover {
+        color: #EB6D3D !important;
+        text-decoration: underline !important;
+    }
+
+.linkModalInfoPergunta {
+    color: black;
+    font-weight: bold;
+}
+
+    .linkModalInfoPergunta:hover {
+        color: #EB6D3D !important;
+        text-decoration: underline !important;
+    }
+
+.favicon{
+    width: 16px;
+    height: 16px;
+}
+
+/* MODAL */
+.modal-content {
+    background-color: #fce2ce !important;
+}
+
+.btn-roxo {
+    color: #fff !important;
+    background-color: #6B1645 !important;
+    border-color: #6B1645 !important;
+}

@@ -1,0 +1,573 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>TJDFT - Núcleo Judiciário da Mulher - Questionário - Comportamento machista</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="TJDFT - Núcleo Judiciário da Mulher - Questionário - Comportamento machista">
+    <meta name="keywords" content="mulher, machismo, comportamento">
+    <meta name="author" content="Eduardo Deodoro de Moraes Florindo">
+
+    <link rel="shortcut icon" href="Content/img/favicons/njm.png" />
+
+    <!--CSS-->
+    <link href="Content/css/site.css" rel="stylesheet" />
+    <link href="Content/css/radiobuttonSimNao.css" rel="stylesheet" />
+    <link href="Content/css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+
+    <!--JS-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="Content/js/bootstrap/bootstrap.min.js"></script>
+</head>
+<body>
+    <!--CABEÇALHO-->
+    <div id="divTitulo" class="cabecalho">
+        <img id="imgCabecalho" class="imagemCabecalho centralizado" src="Content/img/cabecalho.png" />
+    </div>
+    <div class="container">
+        <!--PERGUNTAS E IMAGENS ILUSTRATIVAS-->
+        <div class="row align-items-center">
+            <div class="col-md-2 col-lg-2 col-xl-2 d-none d-sm-block d-sm-none d-md-block">
+                <img src="Content/img/pergunta1.png" class="imagemIlustrativa" />
+                <img src="Content/img/imagemVazia.png" class="imagemIlustrativa" />
+                <img src="Content/img/pergunta2.png" class="imagemIlustrativa" />
+                <img src="Content/img/imagemVazia.png" class="imagemIlustrativa" />
+                <img src="Content/img/pergunta3.png" class="imagemIlustrativa" />
+                <img src="Content/img/imagemVazia.png" class="imagemIlustrativa" />
+                <img src="Content/img/pergunta4.png" class="imagemIlustrativa" />
+                <img src="Content/img/imagemVazia.png" class="imagemIlustrativa" />
+            </div>
+            <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8">
+                <table class="tablePerguntas">
+                    <!--PERGUNTA 1-->
+                    <tr>
+                        <td class="colunaNumPergunta">
+                            1
+                        </td>
+                        <td class="colunaPergunta">
+                            Fica calado em interações nas redes sociais ou entre amigos quando alguém realiza
+                            piadas que expõem ou desrespeitam mulheres?
+                        </td>
+                        <td class="colunaRadiobutton">
+                            <div class="toggle">
+                                <input type="radio" name="rdPergunta1" value="S" id="pergunta1Sim" onclick="exibeInfoPergunta(1)" />
+                                <label for="pergunta1Sim">Sim</label>
+                                <input type="radio" name="rdPergunta1" value="N" id="pergunta1Nao" />
+                                <label for="pergunta1Nao">Não</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <!--PERGUNTA 2-->
+                    <tr>
+                        <td class="colunaNumPergunta">
+                            2
+                        </td>
+                        <td class="colunaPergunta">
+                            Acredita que as responsabilidades com a casa e os cuidados com filhos, idosos ou
+                            pessoas com deficiência sejam exclusivamente de mulheres?
+                        </td>
+                        <td class="colunaRadiobutton">
+                            <div class="toggle">
+                                <input type="radio" name="rdPergunta2" value="S" id="pergunta2Sim" onclick="exibeInfoPergunta(2)" />
+                                <label for="pergunta2Sim">Sim</label>
+                                <input type="radio" name="rdPergunta2" value="N" id="pergunta2Nao" />
+                                <label for="pergunta2Nao">Não</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <!--PERGUNTA 3-->
+                    <tr>
+                        <td class="colunaNumPergunta">
+                            3
+                        </td>
+                        <td class="colunaPergunta">
+                            Acredita que mulheres precisam constantemente da orientação e supervisão dos homens?
+                        </td>
+                        <td class="colunaRadiobutton">
+                            <div class="toggle">
+                                <input type="radio" name="rdPergunta3" value="S" id="pergunta3Sim" onclick="exibeInfoPergunta(3)" />
+                                <label for="pergunta3Sim">Sim</label>
+                                <input type="radio" name="rdPergunta3" value="N" id="pergunta3Nao" />
+                                <label for="pergunta3Nao">Não</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <!--PERGUNTA 4-->
+                    <tr>
+                        <td class="colunaNumPergunta">
+                            4
+                        </td>
+                        <td class="colunaPergunta">
+                            Acredita que “dar uma cantada” em uma mulher seja algo inofensivo?
+                        </td>
+                        <td class="colunaRadiobutton">
+                            <div class="toggle">
+                                <input type="radio" name="rdPergunta4" value="S" id="pergunta4Sim" onclick="exibeInfoPergunta(4)" />
+                                <label for="pergunta4Sim">Sim</label>
+                                <input type="radio" name="rdPergunta4" value="N" id="pergunta4Nao" />
+                                <label for="pergunta4Nao">Não</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <!--PERGUNTA 5-->
+                    <tr>
+                        <td class="colunaNumPergunta">
+                            5
+                        </td>
+                        <td class="colunaPergunta">
+                            Fica irritado se sua parceira não te pede permissão para fazer alguma coisa?
+                        </td>
+                        <td class="colunaRadiobutton">
+                            <div class="toggle">
+                                <input type="radio" name="rdPergunta5" value="S" id="pergunta5Sim" onclick="exibeInfoPergunta(5)" />
+                                <label for="pergunta5Sim">Sim</label>
+                                <input type="radio" name="rdPergunta5" value="N" id="pergunta5Nao" />
+                                <label for="pergunta5Nao">Não</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <!--PERGUNTA 6-->
+                    <tr>
+                        <td class="colunaNumPergunta">
+                            6
+                        </td>
+                        <td class="colunaPergunta">
+                            Vigia com quem sua parceira fala, as roupas que ela usa e onde ela vai?
+                        </td>
+                        <td class="colunaRadiobutton">
+                            <div class="toggle">
+                                <input type="radio" name="rdPergunta6" value="S" id="pergunta6Sim" onclick="exibeInfoPergunta(6)" />
+                                <label for="pergunta6Sim">Sim</label>
+                                <input type="radio" name="rdPergunta6" value="N" id="pergunta6Nao" />
+                                <label for="pergunta6Nao">Não</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <!--PERGUNTA 7-->
+                    <tr>
+                        <td class="colunaNumPergunta">
+                            7
+                        </td>
+                        <td class="colunaPergunta">
+                            Quando ela te questiona por algo que você tenha feito, diz frases como “você é louca”
+                            ou “isso é coisa da sua cabeça”?
+                        </td>
+                        <td class="colunaRadiobutton">
+                            <div class="toggle">
+                                <input type="radio" name="rdPergunta7" value="S" id="pergunta7Sim" onclick="exibeInfoPergunta(7)" />
+                                <label for="pergunta7Sim">Sim</label>
+                                <input type="radio" name="rdPergunta7" value="N" id="pergunta7Nao" />
+                                <label for="pergunta7Nao">Não</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <!--PERGUNTA 8-->
+                    <tr>
+                        <td class="colunaNumPergunta">
+                            8
+                        </td>
+                        <td class="colunaPergunta">
+                            Usa frases do tipo: “Ninguém nunca vai te amar, te aceitar ou te querer além de mim”?
+                        </td>
+                        <td class="colunaRadiobutton">
+                            <div class="toggle">
+                                <input type="radio" name="rdPergunta8" value="S" id="pergunta8Sim" onclick="exibeInfoPergunta(8)" />
+                                <label for="pergunta8Sim">Sim</label>
+                                <input type="radio" name="rdPergunta8" value="N" id="pergunta8Nao" />
+                                <label for="pergunta8Nao">Não</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <!--PERGUNTA 9-->
+                    <tr>
+                        <td class="colunaNumPergunta">
+                            9
+                        </td>
+                        <td class="colunaPergunta">
+                            Faz sua parceira sentir que a culpa por sua postura ameaçadora ou agressiva é dela?
+                        </td>
+                        <td class="colunaRadiobutton">
+                            <div class="toggle">
+                                <input type="radio" name="rdPergunta9" value="S" id="pergunta9Sim" onclick="exibeInfoPergunta(9)" />
+                                <label for="pergunta9Sim">Sim</label>
+                                <input type="radio" name="rdPergunta9" value="N" id="pergunta9Nao" />
+                                <label for="pergunta9Nao">Não</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <!--PERGUNTA 10-->
+                    <tr>
+                        <td class="colunaNumPergunta">
+                            10
+                        </td>
+                        <td class="colunaPergunta">
+                            Já pensou ou verbalizou para a sua parceira a seguinte frase: “se não for minha, não
+                            será de mais ninguém”?
+                        </td>
+                        <td class="colunaRadiobutton">
+                            <div class="toggle">
+                                <input type="radio" name="rdPergunta10" value="S" id="pergunta10Sim" onclick="exibeInfoPergunta(10)" />
+                                <label for="pergunta10Sim">Sim</label>
+                                <input type="radio" name="rdPergunta10" value="N" id="pergunta10Nao" />
+                                <label for="pergunta10Nao">Não</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <!--PERGUNTA 11-->
+                    <tr>
+                        <td class="colunaNumPergunta">
+                            11
+                        </td>
+                        <td class="colunaPergunta">
+                            Já insinuou ou acusou sua parceira de traição?
+                        </td>
+                        <td class="colunaRadiobutton">
+                            <div class="toggle">
+                                <input type="radio" name="rdPergunta11" value="S" id="pergunta11Sim" />
+                                <label for="pergunta11Sim">Sim</label>
+                                <input type="radio" name="rdPergunta11" value="N" id="pergunta11Nao" />
+                                <label for="pergunta11Nao">Não</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <!--PERGUNTA 12-->
+                    <tr>
+                        <td class="colunaNumPergunta">
+                            12
+                        </td>
+                        <td class="colunaPergunta">
+                            Já xingou sua companheira para a desestabilizar ou causar sofrimento?
+                        </td>
+                        <td class="colunaRadiobutton">
+                            <div class="toggle">
+                                <input type="radio" name="rdPergunta12" value="S" id="pergunta12Sim" />
+                                <label for="pergunta12Sim">Sim</label>
+                                <input type="radio" name="rdPergunta12" value="N" id="pergunta12Nao" />
+                                <label for="pergunta12Nao">Não</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <!--PERGUNTA 13-->
+                    <tr>
+                        <td class="colunaNumPergunta">
+                            13
+                        </td>
+                        <td class="colunaPergunta">
+                            Já se utilizou de força física para “acalmar” a sua parceira durante uma discussão?
+                        </td>
+                        <td class="colunaRadiobutton">
+                            <div class="toggle">
+                                <input type="radio" name="rdPergunta13" value="S" id="pergunta13Sim" />
+                                <label for="pergunta13Sim">Sim</label>
+                                <input type="radio" name="rdPergunta13" value="N" id="pergunta13Nao" />
+                                <label for="pergunta13Nao">Não</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <!--PERGUNTA 14-->
+                    <tr>
+                        <td class="colunaNumPergunta">
+                            14
+                        </td>
+                        <td class="colunaPergunta">
+                            Já agrediu uma mulher fisicamente (bater, empurrar, chutar, beliscar, puxar o cabelo,
+                            jogar objetos, etc)?
+                        </td>
+                        <td class="colunaRadiobutton">
+                            <div class="toggle">
+                                <input type="radio" name="rdPergunta14" value="S" id="pergunta14Sim" />
+                                <label for="pergunta14Sim">Sim</label>
+                                <input type="radio" name="rdPergunta14" value="N" id="pergunta14Nao" />
+                                <label for="pergunta14Nao">Não</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <!--PERGUNTA 15-->
+                    <tr>
+                        <td class="colunaNumPergunta">
+                            15
+                        </td>
+                        <td class="colunaPergunta">
+                            Desrespeita sua parceira quando ela diz “não”, inclusive durante o sexo?
+                        </td>
+                        <td class="colunaRadiobutton">
+                            <div class="toggle">
+                                <input type="radio" name="rdPergunta15" value="S" id="pergunta15Sim" />
+                                <label for="pergunta15Sim">Sim</label>
+                                <input type="radio" name="rdPergunta15" value="N" id="pergunta15Nao" />
+                                <label for="pergunta15Nao">Não</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <!--PERGUNTA 16-->
+                    <tr>
+                        <td class="colunaNumPergunta">
+                            16
+                        </td>
+                        <td class="colunaPergunta">
+                            Fica irritado quando você quer sexo e ela não quer?
+                        </td>
+                        <td class="colunaRadiobutton">
+                            <div class="toggle">
+                                <input type="radio" name="rdPergunta16" value="S" id="pergunta16Sim" />
+                                <label for="pergunta16Sim">Sim</label>
+                                <input type="radio" name="rdPergunta16" value="N" id="pergunta16Nao" />
+                                <label for="pergunta16Nao">Não</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <!--PERGUNTA 17-->
+                    <tr>
+                        <td class="colunaNumPergunta">
+                            17
+                        </td>
+                        <td class="colunaPergunta">
+                            Já descontou (ou pensou em descontar) a “raiva” que possa ter sentido da sua
+                            parceira em objetos, animais ou outras pessoas?
+                        </td>
+                        <td class="colunaRadiobutton">
+                            <div class="toggle">
+                                <input type="radio" name="rdPergunta17" value="S" id="pergunta17Sim" />
+                                <label for="pergunta17Sim">Sim</label>
+                                <input type="radio" name="rdPergunta17" value="N" id="pergunta17Nao" />
+                                <label for="pergunta17Nao">Não</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <!--PERGUNTA 18-->
+                    <tr>
+                        <td class="colunaNumPergunta">
+                            18
+                        </td>
+                        <td class="colunaPergunta">
+                            Controla o dinheiro da sua parceira e a obriga a prestar contas mesmo quando ela trabalha?
+                        </td>
+                        <td class="colunaRadiobutton">
+                            <div class="toggle">
+                                <input type="radio" name="rdPergunta18" value="S" id="pergunta18Sim" />
+                                <label for="pergunta18Sim">Sim</label>
+                                <input type="radio" name="rdPergunta18" value="N" id="pergunta18Nao" />
+                                <label for="pergunta18Nao">Não</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <!--PERGUNTA 19-->
+                    <tr>
+                        <td class="colunaNumPergunta">
+                            19
+                        </td>
+                        <td class="colunaPergunta">
+                            Já a agrediu (física ou verbalmente) na frente dos filhos?
+                        </td>
+                        <td class="colunaRadiobutton">
+                            <div class="toggle">
+                                <input type="radio" name="rdPergunta19" value="S" id="pergunta19Sim" />
+                                <label for="pergunta19Sim">Sim</label>
+                                <input type="radio" name="rdPergunta19" value="N" id="pergunta19Nao" />
+                                <label for="pergunta19Nao">Não</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <!--PERGUNTA 20-->
+                    <tr>
+                        <td class="colunaNumPergunta">
+                            20
+                        </td>
+                        <td class="colunaPergunta">
+                            Justifica comportamentos violentos pelo uso de álcool e/ou drogas?
+                        </td>
+                        <td class="colunaRadiobutton">
+                            <div class="toggle">
+                                <input type="radio" name="rdPergunta20" value="S" id="pergunta20Sim" />
+                                <label for="pergunta20Sim">Sim</label>
+                                <input type="radio" name="rdPergunta20" value="N" id="pergunta20Nao" />
+                                <label for="pergunta20Nao">Não</label>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 d-none d-sm-block d-sm-none d-md-block">
+                <img src="Content/img/imagemVazia.png" class="imagemIlustrativa" />
+                <img src="Content/img/hashtag1.png" class="imagemIlustrativa" />
+                <img src="Content/img/imagemVazia.png" class="imagemIlustrativa" />
+                <img src="Content/img/Hashtag2.png" class="imagemIlustrativa" />
+                <img src="Content/img/imagemVazia.png" class="imagemIlustrativa" />
+                <img src="Content/img/Hashtag3.png" class="imagemIlustrativa" />
+                <img src="Content/img/imagemVazia.png" class="imagemIlustrativa" />
+                <img src="Content/img/hashtag4.png" class="imagemIlustrativa" />
+            </div>
+        </div>
+        <!--BALÕES DE DIÁLOGO-->
+        <div class="row align-items-center">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <a href="#" data-toggle="modal" data-target="#modalBalaoDialogoAtitudes">
+                    <img src="Content/img/balao1.png" class="imagemInformacoes centralizado" />
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <a href="#" data-toggle="modal" data-target="#modalBalaoDialogoIdentificacaoAtitudes">
+                    <img src="Content/img/balao2.png" class="imagemInformacoes centralizado" />
+                </a>
+            </div>
+        </div>
+        <!--CONTATO-->
+        <div class="row align-items-center contato">
+            <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 d-none d-sm-block d-sm-none d-md-block">
+                <img src="Content/img/contato.png" class="imagemContato" />
+            </div>
+            <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1 d-none d-sm-block d-sm-none d-md-block">
+                &nbsp;
+            </div>
+            <div class="col-sm-7 col-md-7 col-lg-7 col-xl-7">
+                <h5>
+                    SE PRECISAR DE AJUDA PROCURE UM DOS SEGUINTES
+                    SERVIÇOS MAIS PRÓXIMOS DE SUA RESIDÊNCIA
+                </h5>
+                <p>
+                    <a href="http://www.sedes.df.gov.br/protecao-e-atendimento-especializado/" target="_blank" class="linkExterno">
+                        Centro de Referência Especializado de Assistência Social – CREAS
+                    </a>
+                </p>
+                <p>
+                    <a href="http://www.mulher.df.gov.br/nucleos-de-atendimento-as-familias-e-aos-autores-de-violencia-domestica-nafavd/" target="_blank" class="linkExterno">
+                        Núcleo de Atendimento às Famílias e aos Autores de Violência Doméstica – NAFAVD
+                    </a>
+                </p>
+                <p>
+                    <a href="http://www.saude.df.gov.br/vigilancia-em-violencia/" target="_blank" class="linkExterno">
+                        Programas de Atenção à Violência – PAV, da Secretaria de Saúde
+                    </a>
+                </p>
+                <br />
+                <h5>
+                    OU ENTRE EM CONTATO CONOSCO
+                </h5>
+                <p>
+                    <a href="https://www.tjdft.jus.br/informacoes/cidadania/centro-judiciario-mulher" target="_blank"
+                       class="linkExterno">
+                        NÚCLEO JUDICIÁRIO DA MULHER
+                    </a>
+                    <img src="Content/img/favicons/njm.png" class="favicon" />
+                    <br />
+                    Fórum Desembargador Hugo Auler
+                    <br />
+                    Endereço: Avenida Contorno, Área Especial 13, Lote 14, Térreo, sala T125
+                    <br />
+                    Núcleo Bandeirante – DF / CEP: 71.705-535
+                    <br />
+                    Telefones: (61) 3103-2041 / (61) 3103-2027
+                    <br />
+                    E-mail: <a href="mailto:njm.df@tjdft.jus.br" target="_blank" class="linkExterno">njm.df@tjdft.jus.br</a>
+                </p>
+                <br />
+                <h5>
+                    SAIBA MAIS SOBRE O TEMA
+                </h5>
+                <p>
+                    <a href="http://www.papodehomem.com.br" target="_blank" class="linkExterno">Papo de Homem</a>
+                    <img src="Content/img/favicons/papodehomem.png" class="favicon" />
+                    <br />
+                    <a href="http://www.paizinhovirgula.com" target="_blank" class="linkExterno">Paizinho, vírgula!</a>
+                    <img src="Content/img/favicons/paizinhovirgula.png" class="favicon" />
+                </p>
+            </div>
+        </div>
+        <!--IMAGEM TODOS-->
+        <div class="row align-items-center">
+            <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8">
+                <img src="Content/img/todos.png" class="imagemInformacoes centralizado" />
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                <img src="Content/img/logoNJMTJDFT.png" class="imagemInformacoes centralizado" />
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL INFORMAÇÃO RESPOSTA SIM -->
+    <div class="modal fade" id="modalInfoPergunta" tabindex="-1" role="dialog" aria-labelledby="modalInfoPerguntaLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div id="divTextoModalInfoPergunta" class="modal-body text-justify">
+                </div>
+                <div class="modal-body text-right">
+                    <button type="button" class="btn btn-sm btn-roxo" data-dismiss="modal"><b><span aria-hidden="true">X </span></b> Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL BALÃO DIÁLOGO ATITUDES -->
+    <div id="modalBalaoDialogoAtitudes" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="modalBalaoDialogoAtitudesLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="col-12">
+                    Para garantir a proteção às mulheres em situações de violência doméstica, familiar e/
+                    ou em relações íntimas de afeto, foi criada, em 2006, a Lei Maria da Penha, que visa coibir
+                    e prevenir tais violências. Essa lei prevê cinco tipos de violência contra as mulheres:
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-2">
+                        <img src="Content/img/blocoTextoAtitudes.png" class="imagemIlustrativa" />
+                    </div>
+
+                    <div class="col-10">
+                        <span class="tituloDefinicao">VIOLÊNCIA PSICOLÓGICA</span> humilhações, insultos, perseguição, isolamento, controle,
+                        ameaça e outras atitudes que ferem a auto-estima e a autonomia da mulher;
+                        <br />
+                        <span class="tituloDefinicao"> VIOLÊNCIA MORAL </span> atitudes que geram constrangimento, como xingamentos, ofensas e comentários depreciativos, incluindo os crimes de calúnia, injúria e difamação;
+                        <br />
+                        <span class="tituloDefinicao"> VIOLÊNCIA PATRIMONIAL </span> controlar o dinheiro, destruir ou subtrair objetos, documentos pessoais, ocultar bens e propriedades em comum, dentre outros;
+                        <br />
+                        <span class="tituloDefinicao"> VIOLÊNCIA SEXUAL </span> pressionar a fazer sexo contra a vontade da mulher, exigir práticas
+                        sexuais que ela não gosta, impedi-la de usar métodos contraceptivos, dentre outros;
+                        <br />
+                        <span class="tituloDefinicao"> VIOLÊNCIA FÍSICA </span> empurrar, chutar, bater, amarrar, sufocar, dentre outras atitudes
+                        que ferem a integridade física da mulher.
+                    </div>
+                </div>
+                <br />
+                <div class="col-12">
+                    Vale dizer que essa Lei tem como objetivo fazer com que toda a sociedade possa
+                    refletir e desenvolver atitudes que superem as desigualdades que geram tantas violências. Dessa forma, todos podemos contribuir para a construção de uma sociedade
+                    mais justa e igualitária. E isso começa pelo respeito.
+                </div>
+                <div class="modal-body text-right">
+                    <button type="button" class="btn btn-sm btn-roxo" data-dismiss="modal"><b><span aria-hidden="true">X </span></b> Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL BALÃO DIÁLOGO ATITUDES -->
+    <div id="modalBalaoDialogoIdentificacaoAtitudes" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalBalaoDialogoIdentificacaoAtitudesLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body text-justify">
+                    Assumir isso é o primeiro passo para uma mudança de comportamento. Procure ajuda conversando sobre isso com alguém de sua confiança, ou buscar informações relevantes sobre o tema. Além disso, existem instituições que podem realizar orientações
+                    e encaminhamentos, se necessário.
+                </div>
+                <div class="modal-body text-right">
+                    <button type="button" class="btn btn-sm btn-roxo" data-dismiss="modal"><b><span aria-hidden="true">X </span></b> Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="Content\js\questionario.js"></script>
+<script>
+    function exibeInfoPergunta(numPergunta) {
+        var textoInformacao = buscarTextoInfoPergunta(numPergunta)
+
+        $("#divTextoModalInfoPergunta").html(textoInformacao);
+
+        if (textoInformacao != "") {
+            $("#modalInfoPergunta").modal('show');
+        }
+    }
+</script>
