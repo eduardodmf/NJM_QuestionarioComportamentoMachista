@@ -34,6 +34,7 @@
     <Content Include="Content\img\pergunta4.png" />
     <Content Include="Content\img\todos.png" />
     <Content Include="Content\css\site.css" />
+    <Content Include="Content\js\jquery\jquery-3.5.1.min.js" />
     <Content Include="Content\js\questionario.js" />
     <Content Include="Content\js\bootstrap\bootstrap.bundle.js" />
     <Content Include="Content\js\bootstrap\bootstrap.bundle.min.js" />

@@ -16,9 +16,7 @@ body {
     padding-left: 0.5em;
     padding-right: 0.5em;
     background-color: #fce2ce !important;
-    font-size: 16px;
     font-family: 'opensans-extrabold';
-    /*font-family: "Open Sans", "Helvetica", sans-serif;*/
     -webkit-font-smoothing: antialiased;
     margin: 0;
     box-sizing: border-box;
@@ -65,19 +63,23 @@ textarea {
 .colunaNumPergunta {
     width: 5%;
     font-weight: bold;
-    font-size: 20px;
     color: #e95d32;
 }
 .colunaPergunta {
-    width: 85%;
+    width: 77%;
     font-weight: bold;
 }
 .colunaRadioButton{
-    width: 10%
+    width: 18%;
+    align-content: center;
 }
 
 .imagemIlustrativa{
     width: 90%;
+}
+
+.imagemAtitudes {
+    width: 40%;
 }
 
 .contato {
@@ -89,7 +91,7 @@ textarea {
     width: 100% !important;
     position: absolute !important;
     left: 20px !important;
-    top: -150px !important;
+    top: -210px !important;
     z-index: 1 !important;
 }
 
@@ -100,10 +102,6 @@ h5 {
 .tituloDefinicao {
     color: #EB6D3D;
     font-weight: bold;
-}
-
-p{
-    color: white;
 }
 
 .linkExterno {
@@ -119,6 +117,7 @@ p{
 .linkModalInfoPergunta {
     color: black;
     font-weight: bold;
+    font-size: 0.9rem;
 }
 
     .linkModalInfoPergunta:hover {
@@ -141,3 +140,60 @@ p{
     background-color: #6B1645 !important;
     border-color: #6B1645 !important;
 }
+
+.porqueProblema {
+    font-weight: bold;
+    font-size: 0.7rem;
+    color: #6B1645;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* TAMANHO DA FONTE*/
+/* 
+Extra small devices (portrait phones, less than 544px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+/*.porqueProblema {
+    font-size: 0.6rem;
+}*/
+/* Small devices (landscape phones, 544px and up) */
+/*@media (min-width: 544px) {
+    .porqueProblema {
+        font-size: 0.8rem;
+    }*/
+    /*1rem = 16px*/
+/*}*/
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+/*@media (min-width: 768px) {
+    .porqueProblema {
+        font-size: 1rem;
+    }*/
+    /*1rem = 16px*/
+/*}*/
+
+/* Large devices (desktops, 992px and up) */
+/*@media (min-width: 992px) {
+    .porqueProblema {
+        font-size: 1.2rem;
+    }*/
+    /*1rem = 16px*/
+/*}*/
+
+/* Extra large devices (large desktops, 1200px and up) */
+/*@media (min-width: 1200px) {
+    .porqueProblema {
+        font-size: 1rem;
+    }*/
+    /*1rem = 16px*/
+/*}*/
+
+/* Custom media queries */
+/* Set width to make card deck cards 100% width */
+/*@media (min-width: 950px) and (max-width:1100px) {
+    .porqueProblema {
+        font-size: 1.8rem;
+        color: red;
+    }
+}*/
