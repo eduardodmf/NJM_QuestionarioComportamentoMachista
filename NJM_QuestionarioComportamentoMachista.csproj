@@ -18,6 +18,7 @@
     <Content Include="Content\img\cabecalho.png" />
     <Content Include="Content\img\cabecalhoComFundo.png" />
     <Content Include="Content\img\contato.png" />
+    <Content Include="Content\img\favicons\memoh.png" />
     <Content Include="Content\img\favicons\njm.png" />
     <Content Include="Content\img\favicons\paizinhovirgula.png" />
     <Content Include="Content\img\favicons\papodehomem.png" />
